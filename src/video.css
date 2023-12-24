@@ -1,0 +1,104 @@
+/* Optional styles */
+html {
+    box-sizing: border-box;
+    font-family: "YouTube Noto", Roboto, Arial, Helvetica, sans-serif;
+    height: 100%;
+  }
+  
+  .tt {
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .mmm{
+   width:100%;
+    background-color: black;
+  }
+  
+  /* h1 {
+    color: #00053b;
+    text-align: center;
+    margin-top: 40px;
+  }
+   */
+  /* Responsive styles */
+  .video-container {
+    width: 100%;
+    max-width: 640px;
+    border-radius: 4px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 8px 20px rgba(black, 0.4);
+    height:70%;
+  }
+  
+  .video-wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  video {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .play-button-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    pointer-events: none;
+  }
+  
+  #circle-play-b {
+    cursor: pointer;
+    pointer-events: auto;
+  }
+  
+  svg {
+    width: 10vw; /* Using viewport width for responsiveness */
+    height: 10vw; /* Using viewport width for responsiveness */
+    fill: #fff;
+    stroke: #fff;
+    cursor: pointer;
+    background-color: rgba(black, 0.2);
+    border-radius: 50%;
+    opacity: 0.9;
+  }
+  
+  /* Media Queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 24px; /* Adjust font size for smaller screens */
+      margin-top: 20px; /* Adjust top margin */
+    }
+  
+    svg {
+      width: 12vw; /* Adjust width for smaller screens */
+      height: 12vw; /* Adjust height for smaller screens */
+    }
+  }
+  

@@ -1,0 +1,57 @@
+/*
+*
+* JUST TO MAKE THE NAVBAR A BIT NICER; NOT NECCESSARY.
+*
+*/
+
+.hprr1{
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+}
+.hpr{
+    padding: 5%;
+}
+
+  .transparent {
+    background-color: transparent;
+  }
+  .absolute-full-width {
+      position: absolute;
+      width: 100%;
+  }
+  /*
+  *
+  * HERE IT IS WHERE IT BEGINS.
+  *
+  */
+  .showcasee{
+    overflow: hidden;
+    color: #fff;
+    
+    /* -webkit-background-size: cover;
+
+    -moz-background-size: cover;
+    -o-background-size: cover; */
+    /* background-size: cover; */
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 120vh;
+    text-align: center;
+    margin-bottom: -3%;
+    /*
+    *
+    * HERE IS THE SECRET
+    * MAKE SURE TO ALWAYS USE A LINEAR-GRADIENT VALUE
+    * THE FIRST ONE WILL BE FOR A BLACK OPACITY
+    * THE SECOND ONE (COMMENTED) WILL BE FOR A WHITE OPACITY
+    *
+    */
+    background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%) , url(https://media.istockphoto.com/id/1369010523/photo/roll-of-galvanized-steel-sheet-at-metalworking-factory.jpg?s=612x612&w=0&k=20&c=HaY-0pNi1L2UpMggvRlB5NssiUXbW-S8IClRlz4NLa8=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*** WHITE OPACITY ***/
+    /* background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7) 0%,rgba(255, 255, 255, 0.7) 100%), url(https://images.pexels.com/photos/34676/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);*/
+  }
+    
